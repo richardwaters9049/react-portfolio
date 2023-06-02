@@ -32,7 +32,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">LOGO</h1>
             <ul className="flex items-center">
               <li>
@@ -51,9 +51,9 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center py-10">
             <h2 className="text-5xl py-4 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              RICHY ROSE!!
+              RICHY ROSE
             </h2>
             <h3 className="text-2xl py-4 dark:text-white md:text-3xl">
               Developer and designer.
@@ -67,7 +67,7 @@ export default function Home() {
               <AiFillLinkedin />
               <AiFillYoutube />
             </div> */}
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80">
               {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
               <Lottie  animationData={animationData}/> 
             </div>
